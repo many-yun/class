@@ -1,0 +1,21 @@
+.complete span {
+    text-decoration: line-through;
+    color: #999;
+}
+.complete button {
+    display: none;
+}
+
+.update-mode span {
+    display: none;
+}
+.update-mode input[text] {
+    display: inline-block;
+}
+.none-update-mode span {
+    display: inline-block;
+    cursor: pointer;
+}
+.none-update-mode .update-input {
+    display: none;
+}
